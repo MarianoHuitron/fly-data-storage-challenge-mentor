@@ -149,7 +149,7 @@ body {
 @media (min-width: 768px) {
     .wrapper {
         background-image: url(./images/bg-desktop.png);
-        background-size: 100%;
+        background-size: 100% 50%;
         /* background-position: 0 22rem; */
         background-position: bottom;
         flex-direction: row;
@@ -171,7 +171,7 @@ body {
     .content-progress .alert:before {
         content: '';
         bottom: -37%;
-        left: 79%;
+        left: 79.5%;
         position: absolute;
         border-top: 40px solid var(--PaleBlue);
         border-right: 0px solid transparent;
